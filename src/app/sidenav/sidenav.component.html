@@ -1,6 +1,6 @@
 <mat-nav-list>
     <div class="logo py-4">
-      <img src="https://s3.amazonaws.com/logosnap/logos/2022/Jul/medium-6710-62d66155c237c.png?AWSAccessKeyId=AKIAJYDQOXJXA55YC7SQ&Expires=1658260180&Signature=Z1jDW7oULT0JKAy7MhJbr7n95hk%3D" alt="Company Logo" />
+      <img src="https://www.freepnglogos.com/uploads/hotel-logo-png/new-mika-hotels-logo-4.png" alt="Company Logo" />
     </div>
     <mat-divider></mat-divider>
   
@@ -8,10 +8,26 @@
       <mat-icon>home</mat-icon> Ana Sayfa
     </a>
     <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
-      <mat-icon>dashboard</mat-icon> Rezervasyon
+      <mat-icon>dashboard</mat-icon> Kullanıcı Rezervasyon
     </a>
-    <a mat-list-item> <mat-icon>edit</mat-icon> Konaklama </a>
-    <a mat-list-item> <mat-icon>edit</mat-icon> Yiyecek ve İçecek </a>
-    <a mat-list-item> <mat-icon>edit</mat-icon> Spa </a>
-    <a mat-list-item> <mat-icon>edit</mat-icon> İletişim </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/spareservation">
+      <mat-icon>dashboard</mat-icon> Spa Rezervasyon
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/massagereservation">
+      <mat-icon>dashboard</mat-icon> Masaj Rezervasyon
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/aboutus">
+      <mat-icon>edit</mat-icon> Hakkımızda
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/rooms">
+      <mat-icon>edit</mat-icon> Odalarımız
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/etkinlikler">
+      <mat-icon>edit</mat-icon> Etkinlikler
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/iletisim">
+      <mat-icon>edit</mat-icon> İletişim
+    </a>
+   
   </mat-nav-list>

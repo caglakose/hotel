@@ -16,8 +16,14 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { LoginComponent } from './login/login.component';
 import { SigninComponent } from './signin/signin.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { RoomsComponent } from './rooms/rooms.component';
+import { SpareservationComponent } from './spareservation/spareservation.component';
+import { MassagereservationComponent } from './massagereservation/massagereservation.component';
+import { EtkinliklerComponent } from './etkinlikler/etkinlikler.component';
+import { IletisimComponent } from './iletisim/iletisim.component';
 
-
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 @NgModule({
@@ -29,6 +35,12 @@ import { SigninComponent } from './signin/signin.component';
     SidenavComponent,
     LoginComponent,
     SigninComponent,
+    AboutusComponent,
+    RoomsComponent,
+    SpareservationComponent,
+    MassagereservationComponent,
+    EtkinliklerComponent,
+    IletisimComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +53,8 @@ import { SigninComponent } from './signin/signin.component';
     MatIconModule,
     MatDividerModule,
     MatListModule,
+
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent],
